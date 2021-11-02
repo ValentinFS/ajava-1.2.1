@@ -27,7 +27,9 @@
         "type": "integer"
       },
       "currency": {
-        "type": "string"
+        "type": "string",
+        "minLength": 3,
+        "maxLength": 3
       }
     }
   }
