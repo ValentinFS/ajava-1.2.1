@@ -27,9 +27,13 @@
         "type": "integer"
       },
       "currency": {
-        "type": "string",
-        "minLength": 3,
-        "maxLength": 3
+        "type": "string"
+      },
+      "currency_type": {
+        "enum": [
+          "RUB",
+          "USD"
+        ]
       }
     }
   }
